@@ -1,0 +1,41 @@
+// scss for the header component
+
+@import 'variables';
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    padding: 15px 20px;
+
+    &-title {
+        font-weight: bolder;
+    }
+
+}
+
+.center {
+    display: block;
+    text-align: center;
+}
+
+.navbar-brand {
+    color: white !important;
+    cursor: pointer;
+}
+
+i.fa.fa-search {
+    position: relative;
+    left: 27px;
+}
+
+input.form-control.mr-sm-2 {
+    border-radius: 15px;
+    padding-left: 33px;
+}
+
+.github-header {
+    width: 36px;
+    margin-right: 7px;
+}

@@ -1,0 +1,129 @@
+// scss for the main component
+
+@import 'variables';
+
+.display-flex {
+    display: flex !important;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box>* {
+    flex: 1 1 18pc;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-6 {
+    flex: 6;
+}
+
+.bg-dark {
+    background: $color-dark;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.back-btn {
+    padding: 6px 12px;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    position: absolute;
+    left: 28px;
+    top: 87px;
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 1pc;
+}
+
+.copyright {
+    padding: 1pc;
+    color: white;
+    font-size: 14px;
+}
+
+.not-found {
+    text-align: center;
+    display: block;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.user-det-img {
+    border-radius: 50%;
+    width: 24pc;
+    padding: 3pc 5pc 1pc;
+    margin: auto;
+    display: block;
+}
+
+.user {
+    &-img {
+        border-radius: 50%;
+        width: 15pc;
+        padding: 3pc 1pc;
+        margin: auto;
+        display: block;
+    }
+
+    &-name {
+        text-align: center;
+        display: block;
+    }
+
+    &-url {
+        text-align: center;
+        display: block;
+        font-size: 12px;
+    }
+}
+
+.user-det-name {
+    font-size: 3pc;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+}
+
+.repo-margin {
+    margin: 1pc 15pc;
+}
+
+.main-title {
+    font-size: 3pc;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    margin: 17px 0px;
+}
+
+.my-5 {
+    margin: 5pc 0pc;
+}
+
+.home {
+    overflow-y: auto;
+    height: calc(100vh - 7pc);
+}
+
+.img.footer-img {
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+}
