@@ -2,8 +2,8 @@
   <div class="home">
     <Header />
 
-    <div class="scroller">
-      <button class="back-btn" @click="goBack()"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+    <div>
+    <button class="back-btn" @click="goBack()"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
     
     <img v-if="avatar" class="user-img" :src="avatar">
     <img v-else class="user-det-img" src="../assets/duck.svg">

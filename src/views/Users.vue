@@ -7,7 +7,7 @@
       Top Users
     </div>
 
-    <div class="container-fluid my-5">
+    <div class="container-fluid">
       <div class="box">
         <div v-for="user in user_data" :key="user.id">
 

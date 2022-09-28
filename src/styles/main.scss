@@ -9,6 +9,7 @@
 .box {
     display: flex;
     flex-wrap: wrap;
+    margin: 1pc 0pc 3pc;
 }
 
 .box>* {
@@ -43,11 +44,6 @@
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    display: block;
     text-align: center;
     padding: 1pc;
 }
@@ -62,7 +58,10 @@
     text-align: center;
     display: block;
     font-size: 19px;
+    margin: auto;
+    padding-top: 88px;
     font-weight: 600;
+    height: 303px;
 }
 
 .user-det-img {
@@ -103,6 +102,7 @@
 
 .repo-margin {
     margin: 1pc 15pc;
+    height: 5pc;
 }
 
 .main-title {
@@ -115,11 +115,6 @@
 
 .my-5 {
     margin: 5pc 0pc;
-}
-
-.scroller {
-    overflow-y: auto;
-    height: calc(100vh - 10pc);
 }
 
 .img.footer-img {
