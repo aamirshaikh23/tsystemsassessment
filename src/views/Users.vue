@@ -2,7 +2,8 @@
   <div class="home">
     <Header @searched="filterFromSearch" />
 
-    <div class="main-title">
+    <div class="scroller">
+      <div class="main-title">
       Top Users
     </div>
 
@@ -22,6 +23,7 @@
       <div class="box not-found" v-show="user_data.length == 0">
         Users not found
       </div>
+    </div>
     </div>
 </template>
 
