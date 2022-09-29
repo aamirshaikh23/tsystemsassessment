@@ -24,7 +24,6 @@ export default {
   },
   methods: {
     search_text() {
-      this.$store.commit('searchableText', this.search.text);
       this.$emit("searched", this.search.text);
     },
     routeToHome() {
