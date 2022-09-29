@@ -6,17 +6,12 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state () {
     return {
-      user_avatar: "",
-      text: "",
-      user_list: []
+      user_avatar: ""
     }
   },
   mutations: {
     changeImg(state, upd_avatar) {
       state.user_avatar = upd_avatar;
-    },
-    searchableText(state, text) {
-      state.text = text;
     }
   },
   actions: {
